@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: greenyellow;
+    color: white;
+    padding: 20px 160px;
+    height: 100vh;
+}
+
+.logo{
+    width: 80px;
+}
+
+h4{
+    font-size: 30px;
+}
+
+h1{
+    font-size: 80px;
+}
+
+p{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.botao-carrinho{
+    background: turquoise;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.botao-carrinho:hover {
+    background: green;
+}
+.imagem-tenis{
+    width: 800px;
+    transform: rotate(-25deg);
+}
+
+
+.caixa-principal {
+    display: flex; /* Faz a caixa-principal usar flexbox */
+    
+
+.caixa-texto {
+    flex: 1; /* Faz com que a caixa-texto ocupe o espaço disponível */
+    margin-right: 20px; /* Adiciona um espaço à direita da caixa-texto */
+    max-width: 500px;
+}
+
+.caixa-imagem {
+    flex: 1; /* Faz com que a caixa-imagem ocupe o espaço disponível */
+    display: flex; /* Faz a caixa-imagem ser um contêiner flexível */
+    justify-content: flex-start; /* Alinha o conteúdo para a esquerda */
+    align-items: flex-start; /* Alinha o conteúdo na parte superior */
+}
